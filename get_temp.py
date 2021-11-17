@@ -168,7 +168,7 @@ def main():
 
         # output data to csv
         try:
-            f = open(output, "w")
+            f = open(output, "w", newline='')
         except IOError:
             print("Couldn't open output file.")
 
